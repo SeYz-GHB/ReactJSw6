@@ -1,0 +1,30 @@
+/* src/User.css */
+.user-button {
+    background-color: #facc15; /* Yellow background */
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 200px;
+    text-align: center;
+    color: #000; /* Black text */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .user-button:hover {
+    background-color: #e5b800; /* Slightly darker yellow on hover */
+  }
+  
+  .user-button h2 {
+    margin: 0 0 5px 0;
+    font-size: 18px;
+  }
+  
+  .user-button p {
+    margin: 0;
+    font-size: 14px;
+  }

@@ -1,0 +1,18 @@
+/* src/User.css */
+.user-button {
+    background-color: #facc15; /* Yellow background like in the image */
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 200px; /* Adjust width to match the image */
+    text-align: center;
+    color: #000; /* Black text */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+  }
+  
+  .user-button:hover {
+    background-color: #e5b800; /* Slightly darker yellow on hover for interactivity */
+  }

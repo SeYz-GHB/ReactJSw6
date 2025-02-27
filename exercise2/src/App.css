@@ -1,0 +1,22 @@
+/* src/App.css */
+.app-container {
+  background-color: #1a1a1a; /* Dark background like in the image */
+  color: #fff; /* White text */
+  padding: 20px;
+  text-align: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  display: flex; /* Add flexbox */
+  flex-direction: column; /* Stack children (User buttons) in a column */
+  align-items: center; /* Center the buttons horizontally */
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
